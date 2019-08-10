@@ -22,6 +22,10 @@ LinkedList::~LinkedList(){
     head -> deleteNextAndSelf();
 }
 
+void LinkedList::del(int index) {
+    
+}
+
 void LinkedList::add(int val){
     Node *node = new Node();
     //Same as node -> val
