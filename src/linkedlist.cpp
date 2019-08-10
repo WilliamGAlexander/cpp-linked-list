@@ -22,6 +22,11 @@ LinkedList::~LinkedList(){
     head -> deleteNextAndSelf();
 }
 
+
+void LinkedList::rotate() {
+
+}
+
 void LinkedList::add(int val){
     Node *node = new Node();
     //Same as node -> val

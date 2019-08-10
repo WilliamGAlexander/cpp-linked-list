@@ -13,5 +13,6 @@ class LinkedList{
   LinkedList();
   ~LinkedList();
   void add(int val);
+  void rotate();
   void print();
 };
